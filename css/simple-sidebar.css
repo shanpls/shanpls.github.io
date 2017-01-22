@@ -26,16 +26,16 @@
 
 .inner-container {
     display: table-cell;
-    vertical-align: top; /*Change to middle for center alignment */
+    vertical-align: middle; /*Change to middle for center alignment */
     text-align: left; /*Change to center for center alignment */
-    margin-top: 30px;
+    
     padding-left: 70px;
 }
 
 .centered-content {
     display: inline-block;
-    max-height: 100%;
-    max-width: 100%;
+    max-height: 80%;
+    max-width: 80%;
 }
 
 
@@ -85,12 +85,12 @@
 /* Sidebar Styles */
 .sidebar-nav {
     position: absolute;
-    top: 0;
     width: 300px;
     margin: 0;
     padding: 0;
     padding-left: 25px;
     list-style: none;
+    top:20px;
 }
 
 .sidebar-nav li {
