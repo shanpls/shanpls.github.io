@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Shan Phylim</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/simple-sidebar.css" rel="stylesheet">
+    <link href="../css/projects.css" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Yellowtail" rel="stylesheet">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <a href="#menu-toggle" id="menu-toggle"><></a>
+
+
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="http://shanpls.github.io">
+                        <p>Shan</p>
+                        <p>Phylim</p>
+                        <p style = "font-size: 14px; font-family: 'Nunito Sans', sans-serif;">3A Software Engineering @UWaterloo</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="../pages/about">About</a>
+                </li>
+                <li>
+                    <a href="../resume_sphylim.pdf"  target="_blank">Resume</a>
+                </li>
+                <li>
+                    <a href="../pages/projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper" class = "no-scroll">
+            <div class="container">
+                <div class = "row project">
+                    <div class="col-md-4">
+                         <img src="../images/chromecouch.png">
+                    </div>
+                    <div class="col-md-8">
+                        <a href="https://github.com/FroshBite/Chrome-Couch" target="_blank">Chrome Couch</a>
+                        <p>UofTHacks 2015</p>
+                        <p>A chrome extension that allows you to use an X-Pad game controller to browse the internet.
+                        It was my first experience with Javascript and asynchronous programming. I worked with the Chrome.* API to implement tab management features and worked with it's message passing system. </p>
+                    </div>
+                </div>
+                <div class = "row project">
+                    <div class="col-md-4">
+                         <img src="../images/assymple.png">
+                    </div>
+                    <div class="col-md-8">
+                        <a href="https://github.com/FroshBite/aSymplePlatformer" target="_blank">aSymple Platformer</a>
+                        <p>Fall GI Jam 2014</p>
+                        <p>A 2-player platformer game made using the Unity Game Engine and C#. We built a platformer where "one player screws over other as hard as possible." While one player is trying to reach the end of the level, the other is able to place obstacles to try and stop them.
+                            I worked on scripting obstacle and enemy behaviour, implementing balancing features such as drop zones and timers, and did the art. 
+                        </p>
+                    </div>
+                </div>
+                <div class = "row project">
+                    <div class="col-md-4">
+                         <img src="../images/myopad.png">
+                    </div>
+                    <div class="col-md-8">
+                        <a href="https://github.com/sadmansk/MyoPad" target="_blank">MyoPad</a>
+                        <p>Waterloo EngHack 2014</p>
+                        <p>An application that transforms coordinates from a Myo Armband into a digital drawing. This was made using C++/OpenGL,
+                        and was an opportunity for me to learn about the graphics pipeline. I worked on using OpenGL to draw any processed coordinates/lines onto an actual GUI.</p>
+                    </div>
+                </div>
+                <div class = "row project">
+                    <div class="col-md-4">
+                         <img src="../images/blind.png">
+                    </div>
+                    <div class="col-md-8">
+                        <a href="https://github.com/FroshBite/Blind" target="_blank">Blind</a>
+                        <p>Winter GI Jam 2015</p>
+                        <p>An RPG made using the Unity Game Engine and C#. The idea behind this RPG was to never give the player any solid information, only vague messages. A player won't know exactly
+                        how much health they have, or how much damage they can do. This game was meant as an experiment in saving game states and moving between scenes in Unity, and remains 
+                        incomplete. I worked on the battle system, as well as the art.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
