@@ -29,7 +29,8 @@
     vertical-align: middle; /*Change to middle for center alignment */
     text-align: left; /*Change to center for center alignment */
     
-    padding-left: 70px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .centered-content {
