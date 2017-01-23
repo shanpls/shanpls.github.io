@@ -3,3 +3,10 @@
 	max-width: 80%;
 }
 
+.project .col-md-4{
+	min-height: 200px;
+}
+
+.row{
+	margin-top:30px;
+}
